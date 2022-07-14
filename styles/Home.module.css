@@ -14,18 +14,37 @@
 
 .footer {
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  height: 360px;
+  width: 1960px;
+  background-color: #020251;
 }
 
-.footer a {
+.footer_nav {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 16px;
+  width: 100%;
+  margin-top: 115px;
+}
+
+.footer_nav_item {
+
+  float: left;
+  font-size: 15px;
+  margin-left: 30px;
+  color: #3ea4c4
+
+}
+
+.footer_image {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  height: 80px;
+  width: 100%;
+  margin-bottom: 25px;
+
 }
 
 .title a {
