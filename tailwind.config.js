@@ -123,7 +123,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'home-bg': "url('/icons/bg_objects.png')",
+      }
+    },
     textColor: {
       'primary': '#ffffff',
       'secondary': '#74f8f4',
