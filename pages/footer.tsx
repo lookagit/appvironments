@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 function Footer() {
   return (
-    <div class="grid content-center space-y-12 h-96 w-full, bg-blue-900">
-    <div class="flex flex-row h-8 w-full justify-center space-x-9 text-sm text-sky-500">
+    <div className="grid content-center space-y-12 h-96 w-full, bg-blue-900">
+    <div className="flex flex-row h-8 w-full justify-center space-x-9 text-sm text-sky-500">
         <div>
           <Link href="/">
           <a>Managed development</a>
@@ -54,8 +54,8 @@ function Footer() {
           </Link>
         </div>               
     </div>
-      <div class="flex justify-center content-center">
-       <img src="https://i.ibb.co/HpXLH0B/footer-logo.png" class="max-w-full h-auto" alt="footer-logo"></img>
+      <div className="flex justify-center content-center">
+       <img src="https://i.ibb.co/HpXLH0B/footer-logo.png" className="max-w-full h-auto" alt="footer-logo"></img>
       </div>
     </div>
   )
