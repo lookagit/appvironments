@@ -44,7 +44,7 @@ export default function Layout({ children }) {
             </ul>
           </nav>
         </aside>
-        <main className='flex-1'>{children}</main>
+        <main className='w-[100%]'>{children}</main>
       </div>
     </div>
   );

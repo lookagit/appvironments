@@ -1,61 +1,34 @@
-import { setDefaultResultOrder } from 'dns'
-import Link from 'next/link'
+import Link from 'next/link';
+import Image from 'next/image'
 
-
+const routes = [
+  { label: "Managed development", path: "/managed-development" },
+  { label: "Pricing", path: "/pricing" },
+  { label: "Quick fix", path: "/pricing" },
+  { label: "Our woork", path: "/pricing" },
+  { label: "App builder", path: "/pricing" },
+  { label: "Marketplace", path: "/pricing" },
+  { label: "About Us", path: "/pricing" },
+  { label: "Login", path: "/pricing" },
+]
 
 
 function Footer() {
   return (
-    <div className="grid content-center space-y-12 h-96 w-full, bg-blue-900">
-    <div className="flex flex-row h-8 w-full justify-center space-x-9 text-sm text-sky-500">
-        <div>
-          <Link href="/">
-          <a>Managed development</a>
-          </Link>
-        </div>
-        <div>
-          <Link href="/">
-          <a>Pricing</a>
-          </Link>
-        </div>
-        <div>
-          <Link href="/">
-          <a>Quick fix</a>
-          </Link>
-        </div>
-        <div>
-          <Link href="/">
-          <a>Our woork</a>
-          </Link>
-        </div>
-        <div>
-          <Link href="/">
-          <a>App builder</a>
-          </Link>
-        </div>
-        <div>
-          <Link href="/">
-          <a>App builder</a>
-          </Link>
-        </div>
-        <div>
-          <Link href="/">
-          <a>Marketplace</a>
-          </Link>
-        </div>
-        <div>
-          <Link href="/">
-          <a>About Us</a>
-          </Link>
-        </div>
-        <div>
-          <Link href="/">
-          <a>Log in</a>
-          </Link>
-        </div>               
+    <div className="flex flex-col justify-center items-center space-y-12 h-96 w-full bg-blue">
+    <div className="flex flex-row h-8 w-full justify-center space-x-9 text-sm text-secondary">
+      {
+        routes.map((footerItem, key) => (
+            <div key={key}>
+              <Link href={footerItem.path}>
+                {footerItem.label}
+              </Link>
+            </div>
+        ))
+      }        
     </div>
-      <div className="flex justify-center content-center">
-       <img src="https://i.ibb.co/HpXLH0B/footer-logo.png" className="max-w-full h-auto" alt="footer-logo"></img>
+      <div className="flex justify-center items-center">
+       <img src="/assets/footer_logo.png" className="h-auto" alt="footer-logo" />
       </div>
     </div>
   )
