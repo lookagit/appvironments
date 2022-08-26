@@ -65,7 +65,7 @@ const colors = {
   },
 
   purple: {
-    dark: "#020251"
+    dark: "#02054d"
   },
 
 };
@@ -126,7 +126,7 @@ module.exports = {
     extend: {},
     textColor: {
       'primary': '#ffffff',
-      'secondary': '#33E781',
+      'secondary': '#74f8f4',
       'danger': '#e3342f',
     },
     screens: {

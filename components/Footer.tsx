@@ -4,7 +4,7 @@ const routes = [
   { label: "Managed development", path: "/managed-development" },
   { label: "Pricing", path: "/pricing" },
   { label: "Quick fix", path: "/pricing" },
-  { label: "Our woork", path: "/pricing" },
+  { label: "Our work", path: "/pricing" },
   { label: "App builder", path: "/pricing" },
   { label: "Marketplace", path: "/pricing" },
   { label: "About Us", path: "/pricing" },
@@ -12,9 +12,9 @@ const routes = [
 ]
 
 
-function Footer() {
+const Footer = () => {
   return (
-    <div className="flex flex-col justify-center items-center space-y-12 h-96 w-full bg-blue">
+    <div className="flex flex-col justify-center items-center space-y-12 h-96 w-full bg-purple-dark">
     <div className="flex flex-row h-8 w-full justify-center space-x-9 text-sm text-secondary">
       {
         routes.map((footerItem, key) => (
@@ -32,7 +32,5 @@ function Footer() {
     </div>
   )
 }
-
-
 
 export default Footer
