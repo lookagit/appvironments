@@ -393,6 +393,11 @@
   optionalDependencies:
     "fsevents" "~2.3.2"
 
+"clivas@0.1.x":
+  "integrity" "sha512-aCgOy7EI+ZLuSHFRNNmgpncc3175pH1n6Emom92CgNhUfKYZBzYyhdtnWoY+tOOVYENV7acVOXbxadTO1KUKGA=="
+  "resolved" "https://registry.npmjs.org/clivas/-/clivas-0.1.4.tgz"
+  "version" "0.1.4"
+
 "color-convert@^2.0.1":
   "integrity" "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ=="
   "resolved" "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz"
@@ -1392,6 +1397,13 @@
   "integrity" "sha1-y8ec26+P1CKOE/Yh8rGiN8GyB7M= sha512-U1etNYuMJoIz3ZXSrrySFjsXQTWOx2/jdi86L+2pRvph/qMKL6sbcCYdH23fqsbm8TH2Gn0OybpT4eSFlCVHww=="
   "resolved" "https://registry.npmjs.org/p-try/-/p-try-1.0.0.tgz"
   "version" "1.0.0"
+
+"paint@^0.1.4":
+  "integrity" "sha512-VSSk8kW430cH77o2ROAH6iIm7s4Rq5n8C7FgBo4XXCZ6KYnqFgkn11t0GeTsKS/FgjQz8myaOuykWK7RzV/Frg=="
+  "resolved" "https://registry.npmjs.org/paint/-/paint-0.1.4.tgz"
+  "version" "0.1.4"
+  dependencies:
+    "clivas" "0.1.x"
 
 "parent-module@^1.0.0":
   "integrity" "sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g=="
