@@ -1,6 +1,6 @@
 const HomePageElementText = () => {
     return(
-        <div className="flex flex-col space-y-6 justify-center items-center">
+        <div className="flex flex-col space-y-6 justify-center items-center h-[740px]">
             <div className="text-3xl font-bold text-secondary font-mono">
                 APPSVIRONMENT
             </div>
