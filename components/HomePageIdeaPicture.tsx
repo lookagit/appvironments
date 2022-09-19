@@ -4,7 +4,7 @@ const HomePageIdeaPicture = () => {
             <div className="mr-96">
                 <img src="/images/appvironments_application_idea.png" className="h-auto" alt="header-logo" />
             </div>
-            <div className="absolute right-0">
+            <div className="absolute right-16">
                 <div className="text-3xl font-bold text-primary font-mono">
                     YOU HAVE AN IDEA<br></br>
                     FOR THE APP?
