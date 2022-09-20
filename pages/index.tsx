@@ -4,6 +4,8 @@ import HomePageIdeaPicture  from '../components/HomePageIdeaPicture'
 import HomePageCardButton from '../components/HomePageCardButton'
 import HomePageElementText from '../components/HomePageElementText'
 import HomePageElementButton from '../components/HomePageElementButton'
+import InitialHomePageElement from '../components/InitialHomePageElement'
+import HomePageBoxButton from '../components/HomePageBoxButton'
 
 
 const Home: NextPage = () => {
@@ -11,10 +13,12 @@ const Home: NextPage = () => {
     <div className="">
       <HomeBackground>
         {/* Inser here page */}
-          <HomePageElementButton/>
-          <HomePageElementText/>
-          <HomePageIdeaPicture/>
+          <InitialHomePageElement/>
           <HomePageCardButton/>
+          <HomePageIdeaPicture/>
+          <HomePageBoxButton/>
+          <HomePageElementText/>
+          <HomePageElementButton/>
           <HomePageElementText/>
       </HomeBackground>
     </div>
