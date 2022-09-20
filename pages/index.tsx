@@ -1,14 +1,16 @@
 import type { NextPage } from 'next'
 import HomeBackground from '../components/HomeBackground'
-import styles from '../styles/Home.module.css'
 import HomePageIdeaPicture  from '../components/HomePageIdeaPicture'
+import HomePageCardButton from '../components/HomePageCardButton'
+
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div className="">
       <HomeBackground>
         {/* Inser here page */}
-      <HomePageIdeaPicture/>
+          <HomePageCardButton/>
+          <HomePageIdeaPicture/>
       </HomeBackground>
     </div>
   )
