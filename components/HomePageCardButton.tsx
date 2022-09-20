@@ -10,7 +10,7 @@ const HomePageCardButton = () => {
             <div className="text-primary font-bold font-mono text-lg">
                 Meet up with professionals and get started! 
             </div>
-            <button class="bg-secondary text-none text-sm py-3 px-4 rounded">
+            <button className="bg-blue-light text-none text-sm py-3 px-4 rounded">
                 Managed Development
             </button>
         </div>
