@@ -11,7 +11,7 @@ const HomePageElementButton = () => {
             <div>
                 <img src="/images/appvironments_estimate_cost.png"/>
             </div>
-            <button class="bg-primary text-primary text-sm py-3 px-4 rounded mt-20">
+            <button className="bg-primary text-primary text-sm py-3 px-4 rounded mt-20">
                 Try our estimate calculator
             </button>           
         </div>

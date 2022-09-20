@@ -29,7 +29,7 @@ const HomePageBoxButton = () => {
                         to the production.
                     </div>
                 </div>    
-            <button class="bg-primary text-primary text-sm py-3 px-4 rounded mt-20">
+            <button className="bg-primary text-primary text-sm py-3 px-4 rounded mt-20">
                 Estimate with an Expert
             </button>           
         </div>
