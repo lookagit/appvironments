@@ -16,7 +16,7 @@ const HomePageBoxButton = () => {
                         So why bother building them each time from scratch?
                     </div>
                     <div className="text-secondary underline font-bold font-mono text-lg">
-                        We're here to help make your idea a reality.
+                        We&apos;re here to help make your idea a reality.
                     </div>
                     <div className="text-primary font-mono text-md list-disc">
                         Based on what features you want for your project Appsvironments is here to help<br></br>
@@ -24,7 +24,7 @@ const HomePageBoxButton = () => {
                         complement code.
                     </div>
                     <div className="text-primary font-mono text-md">
-                        After you've found the perfect package our team, of experienced developers and<br></br>
+                        After you&apos;ve found the perfect package our team, of experienced developers and<br></br>
                         project managers, will help you each and every step of the way to make your project<br></br>
                         to the production.
                     </div>
