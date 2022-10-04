@@ -4,7 +4,7 @@ const routes = [
   { label: "Managed development", path: "/managed-development" },
   { label: "Pricing", path: "/prcing"},
   { label: "Quick fix", path: "/quick-fix" },
-  { label: "Out work", path: "/our-work" },
+  { label: "Our work", path: "/our-work" },
   { label: "App builder", path:"/app-builder" },
   { label: "Marketplace", path: "/marketplace" },
   { label: "About us", path: "/about-us"},
