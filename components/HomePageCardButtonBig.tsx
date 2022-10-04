@@ -1,10 +1,10 @@
 const HomePageCardButtonBig = () => {
     return(
         <div className="flex flex-col justify-center mb-10 mt-10 items-center w-[1070px] h-[640px] bg-purple-dark">
-            <div className="text-secondary font-mono text-lg">
+            <div className="text-secondary font-sans text-lg">
                 Have experience in coding/app building?
             </div>
-            <div className="text-3xl font-bold text-primary font-mono">
+            <div className="text-3xl font-medium text-primary font-sans">
                 WHY NOT DO IT BY YOURSELF?
             </div>
             <div>
