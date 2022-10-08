@@ -177,12 +177,12 @@ module.exports = {
       ...spacing
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
+      sans: ['Brooklyn', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
     extend: {
       fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        sans: ["Brooklyn", ...defaultTheme.fontFamily.sans],
         mono: ["Roboto Mono", ...defaultTheme.fontFamily.mono],
     },
 
