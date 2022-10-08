@@ -2,10 +2,10 @@ const HomePageElementButton = () => {
     return(
 
         <div className="flex flex-col  items-center w-[718px] h-[620px] bg-purple-dark">
-            <div className="text-2xl mt-10 font-bold text-primary font-sans">
+            <div className="text-2xl mt-10 font-medium text-primary font-sans">
                 ESTIMATE YOUR COST
             </div>
-            <div className="text-2xl font-bold text-primary font-sans">
+            <div className="text-2xl font-medium text-primary font-sans">
                 TO BUILD AN APP
             </div>
             <div>

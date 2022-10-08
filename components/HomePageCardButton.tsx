@@ -1,7 +1,7 @@
 const HomePageCardButton = () => {
     return(
         <div className="flex flex-col justify-center space-y-8 mb-10 mt-10 items-center w-7/12 h-96 bg-purple-dark">
-            <div className="text-3xl font-bold text-primary font-sans">
+            <div className="text-3xl font-medium text-primary font-sans">
                 LET US CREATE FOR YOU!
             </div>
             <div className="">
