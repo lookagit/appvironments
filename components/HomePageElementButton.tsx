@@ -1,7 +1,7 @@
 const HomePageElementButton = () => {
     return(
 
-        <div className="flex flex-col  items-center w-[718px] h-[620px] bg-purple-dark">
+        <div className="flex flex-col  items-center w-[718px] h-[620px] bg-purple-dark mb-20 mt-20">
             <div className="text-2xl mt-10 font-medium text-primary font-sans">
                 ESTIMATE YOUR COST
             </div>

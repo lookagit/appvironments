@@ -9,6 +9,7 @@ import HomePageBoxButton from '../components/HomePageBoxButton'
 import HomePageCardButtonBig from '../components/HomePageCardButtonBig'
 import HomePageForm from '../components/HomePageForm'
 import HomePagePhones from '../components/HomePagePhones'
+import HomePageElementTextTwo from '../components/HomePageElementTextTwo'
 
 
 const Home: NextPage = () => {
@@ -20,12 +21,12 @@ const Home: NextPage = () => {
           <HomePageCardButton/>
           <HomePageIdeaPicture/>
           <HomePageBoxButton/>
-          <HomePageElementText/>
+          <HomePageElementTextTwo/>
           <HomePageElementButton/>
-          <HomePageCardButtonBig/>
-          <HomePageElementText/>
           <HomePagePhones/>
           <HomePageForm/>
+          <HomePageCardButtonBig/>
+          <HomePageElementText/>
       </HomeBackground>
     </div>
   )
