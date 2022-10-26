@@ -7,6 +7,8 @@ import HomePageElementButton from '../components/HomePageElementButton'
 import InitialHomePageElement from '../components/InitialHomePageElement'
 import HomePageBoxButton from '../components/HomePageBoxButton'
 import HomePageCardButtonBig from '../components/HomePageCardButtonBig'
+import HomePageForm from '../components/HomePageForm'
+import HomePagePhones from '../components/HomePagePhones'
 
 
 const Home: NextPage = () => {
@@ -22,6 +24,8 @@ const Home: NextPage = () => {
           <HomePageElementButton/>
           <HomePageCardButtonBig/>
           <HomePageElementText/>
+          <HomePagePhones/>
+          <HomePageForm/>
       </HomeBackground>
     </div>
   )
