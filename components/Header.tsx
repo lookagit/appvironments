@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const routes = [
   { label: "Managed development", path: "/managed-development" },
-  { label: "Pricing", path: "/prcing"},
+  { label: "Pricing", path: "/pricing"},
   { label: "Quick fix", path: "/quick-fix" },
   { label: "Our work", path: "/our-work" },
   { label: "App builder", path:"/app-builder" },
